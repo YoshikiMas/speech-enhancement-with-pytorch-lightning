@@ -1,0 +1,15 @@
+stft:
+  nfft: 1024
+  nhop: 256
+
+optim:
+  learning_rate: 4.0e-4
+  weight_decay: 1.0e-5
+  warmup: 10
+  nepoch: 500
+  patience: 10
+  batch_size: 32
+
+data:
+  base_dir: './data/'
+  siglen: 32512
